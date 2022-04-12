@@ -1,0 +1,319 @@
+import pandas as pd
+import numpy as np
+import json
+import requests
+key = "Canola Oil"
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=1&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=26&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen1=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=51&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen2=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=76&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen3=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=101&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen4=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=126&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen5=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=151&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen6=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=176&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen7=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=201&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen8=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=226&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen9=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=251&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen10=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=276&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen11=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=301&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen12=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=326&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen13=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=351&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen14=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=376&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen15=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=401&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen16=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=426&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen17=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=451&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen18=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=476&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen19=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    import pandas as pd
+import numpy as np
+import json
+import requests
+url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset=501&dateStart=01/01/2010&dateEnd=12/31/2021'
+res = requests.get(url).json()
+json_object = json.dumps(res['response']['award'], indent = 4)
+  
+# Writing to sample.json
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
+    df_json = pd.read_json('sample.json')
+    df_json.to_excel('DATAFILE.xlsx')
+    praveen20=pd.read_excel('DATAFILE.xlsx', index_col=0)
+    Nsf = praveen.append(praveen1, ignore_index = True)
+Nsf = Nsf.append(praveen2, ignore_index = True)
+Nsf = Nsf.append(praveen3, ignore_index = True)
+Nsf = Nsf.append(praveen4, ignore_index = True)
+Nsf = Nsf.append(praveen5, ignore_index = True)
+Nsf = Nsf.append(praveen6, ignore_index = True)
+Nsf = Nsf.append(praveen7, ignore_index = True)
+Nsf = Nsf.append(praveen8, ignore_index = True)
+Nsf = Nsf.append(praveen9, ignore_index = True)
+Nsf = Nsf.append(praveen10, ignore_index = True)
+Nsf = Nsf.append(praveen11, ignore_index = True)
+Nsf = Nsf.append(praveen12, ignore_index = True)
+Nsf = Nsf.append(praveen13, ignore_index = True)
+Nsf = Nsf.append(praveen14, ignore_index = True)
+Nsf = Nsf.append(praveen15, ignore_index = True)
+Nsf = Nsf.append(praveen16, ignore_index = True)
+Nsf = Nsf.append(praveen17, ignore_index = True)
+Nsf = Nsf.append(praveen18, ignore_index = True)
+Nsf = Nsf.append(praveen19, ignore_index = True)
+Nsf = Nsf.append(praveen20, ignore_index = True)
+writer = pd.ExcelWriter('J:\\Insidermetrics\\IM_Team\\APIs\\NSF\\Crude_Vegtable_oil\\NSF_'+str(key)+'.xlsx', engine='xlsxwriter')
+Nsf.to_excel(writer, sheet_name='University_Data')
+writer.save()
+writer.close()
